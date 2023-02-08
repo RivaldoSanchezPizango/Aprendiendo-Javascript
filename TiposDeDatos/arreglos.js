@@ -33,5 +33,5 @@ colores.pop() // elimina el último elemento de un array y lo devuelve. Este mé
 console.log(colores)
 
 colores.forEach(function (el, index) {         //  ejecuta la función indicada una vez por cada elemento del array.
-  console.log(`<li id="${index}">${el}</li>`)
+    console.log(`<li id="${index}">${el}</li>`)
 }) 
