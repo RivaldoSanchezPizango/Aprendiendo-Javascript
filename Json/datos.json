@@ -1,0 +1,11 @@
+{
+  "cadena": "rivaldo",
+  "numero": "21",
+  "booleano": "true",
+  "arreglo": ["futbol", "trabajo", "programacion"],
+  "objeto": {
+    "facebook": "riva sanchez",
+    "instagram": "rivaaasan"
+  },
+  "nulo": null
+}
