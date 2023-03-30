@@ -9,9 +9,10 @@ Traversing: Recorriendo el DOM
 const $cards = document.querySelector(".cards")
 console.log($cards)
 console.log($cards.children) // hijos
+console.log($cards.childNodes) // referencia al nodo y a los nodos hijos
 console.log($cards.children[2]) // hijo en especifico
 console.log($cards.parentElement) // elemento padre
-console.log($cards.firstElementChild) // detectar el primer elemento
+console.log($cards.firstElementChild) // detectar el primer elemento nodo
 console.log($cards.lastElementChild) // detectar el primer elemento
 
 
@@ -21,4 +22,4 @@ console.log($cards.nextSibling)
 console.log($cards.previousElementSibling)
 console.log($cards.nextElementSibling)
 
-console.log($cards.closest("div"))  
+console.log($cards.closest("div"))  // es un metodo nuevo que hace buscar el ancestro asia dentro o asia fuera
